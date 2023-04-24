@@ -1,0 +1,4 @@
+yacc -d .\filename.y
+lex .\filename.l
+gcc .\lex.yy.c .\filename.tab.c
+.\a.exe
